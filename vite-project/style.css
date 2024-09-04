@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.grid {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 90vw; */
+  /* height: 100%; */
+  align-content: flex-start;
+}
+
+.square {
+  width: 7px;
+  height: 7px;
+  /* border: 1px solid rgba(128, 128, 128, 0.451); */
+  opacity: 0.1;
+  /* &:hover {
+    background-color: black;
+  } */
+}
